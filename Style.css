@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container{
+    max-width: 1000px;
+    margin: auto;
+}
+.menu{
+    background-color: rgba(34, 34, 34);
+    height: 80px;
+    line-height: 70px;
+    padding: 0 20px;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 100;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+.menu-links{
+    float: right;
+}
+.menu-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 7px;
+}
+.header{
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg)center/cover no-repeat;
+    height: 100vh;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+.header-content h1{
+    font-size: 100px;
+    color: rgb(99, 99, 99);
+    margin-bottom: 20px;
+}
+.header-content h2{
+    font-size: 52px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.header-content a{
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+    width: 260px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.about-us{
+
+    background-color: rgba(34, 34, 34);
+}
+.about-us-container{
+    width: 1000px;
+    margin: auto;
+    padding: 100px 10px;
+}
+.about-card{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    text-align: center;
+}
+.about-card p{
+    color: rgb(24, 181, 202);
+    font-size: 24px;
+}
+.about-card img{
+    width: 100px;
+    height: 100px;
+}
+.games{
+    background-color: rgba(34, 34, 34);
+    padding: 30px;
+}
+.games-container{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(34, 34, 34);
+    box-shadow: black 0px 0px 30px ;
+    padding: 30px 15px;
+    
+}
+.games-left{
+    display: inline-block;
+    width: 49%;
+    height: 279px;
+    padding: 40px;
+}
+.games-right{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.games-left img{
+    width: 100%;
+}
+.games-right img{
+    width: 100%;
+}
+
+.games-right p{
+    color: white;
+}
+.games-left p{
+    color: white;
+}
+.games-title{
+    color: rgba(112, 255, 203);
+    font-size: 30px;
+}
+.games-left hr{
+    background-color: rgba(112, 255, 203);
+    height: 3px;
+    margin: 10px 0px;
+}
+.games-right hr{
+    background-color: rgba(112, 255, 203);
+    height: 1px;
+}
+.Title{
+    color: rgba(101, 217, 254);
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0px;
+}
+.tournaments{
+    background-color: rgba(34, 34, 34);
+    padding: 50px;
+}
+.container{
+    background-color: rgba(34, 34, 34);
+    width: 1000px;
+    margin: auto;
+}
+.container p{
+    color: white;
+}
+.Join{
+    background-color: rgba(34, 34, 34);
+    padding: 30px;
+}
+.Join-Container{
+    width: 1000px;
+    padding: 30px 10px;
+    margin: auto;
+    box-shadow: black 0px 0px 30px;
+    background-color: rgba(34, 34, 34);
+}
+.Join-Container hr{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.Join-Content{
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    background-color: rgba(101, 217, 254); 
+    position: relative;
+}
+.Join-Title{
+    color: aliceblue;
+    font-size: 45px;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.Join-Content a{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px 30px; 
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
